@@ -1,4 +1,0 @@
-custom:
-  pythonRequirements:
-    zip: true
-    slim: true
