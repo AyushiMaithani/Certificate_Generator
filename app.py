@@ -11,7 +11,7 @@ df = pd.read_csv("student.csv")
 
 # Dynamically get the absolute path to the certificate template
 current_directory = os.path.dirname(os.path.abspath(__file__))
-certificate_template = os.path.join(current_directory, 'Certificate_template.jpg')
+certificate_template = os.path.join(current_directory, 'certificate_template.jpg')
 
 # Font settings for OpenCV
 font = cv2.FONT_HERSHEY_DUPLEX
